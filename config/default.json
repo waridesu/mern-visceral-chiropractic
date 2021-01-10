@@ -1,4 +1,5 @@
 {
   "port": 5000,
-  "mongoUrl": ""
+  "jwtSecret": "some secret",
+  "mongoUrl": "mongodb+srv://denis:78602000a@cluster0.va4dj.mongodb.net/app?retryWrites=true&w=majority"
 }
