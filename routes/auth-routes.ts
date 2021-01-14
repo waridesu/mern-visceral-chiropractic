@@ -14,7 +14,7 @@ router.post('/register',
     async (req, res) => {
         try {
             const errors = validationResult(req)
-            if (errors.isEmpty()) {
+            if (!errors.isEmpty()) {
                 return res.status(400).json({
                     errors: errors.array(),
                     message: 'Некорректные данные при регистрации'
@@ -41,7 +41,7 @@ router.post('/login',
     async (req, res) => {
         try {
             const errors = validationResult(req)
-            if (errors.isEmpty()) {
+            if (!errors.isEmpty()) {
                 return res.status(400).json({
                     errors: errors.array(),
                     message: 'Некорректные данные при входе в систему'
@@ -57,7 +57,7 @@ router.post('/login',
                 return res.status(400).json({message: 'Неверный пароль, попробуйте снова'})
             }
             const token = jwt.sign({userId: user.id}, Config.get('jwtSecret'), {expiresIn: '1h'})
-            res.json({ token, userId: user.id})
+            res.json({token, userId: user.id})
         } catch (e) {
             res.status(500).json({message: 'Что-то пошло не так, попробуйте снова'})
         }

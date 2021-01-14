@@ -20,19 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2c1bffb-f8de-4d03-92c4-c7a7b7a51276" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/pages/AuthPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/CreatePage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/DetailPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/LinksPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/routes.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/User.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/auth-routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/hooks/http.hook.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/hooks/message.hook.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/default.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/default.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/client/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/AuthPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/AuthPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/auth-routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/routes/auth-routes.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +43,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package.json" />
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -79,6 +79,10 @@
       <workItem from="1610129443771" duration="124000" />
       <workItem from="1610187201808" duration="9022000" />
       <workItem from="1610217972610" duration="5917000" />
+      <workItem from="1610265471140" duration="2210000" />
+      <workItem from="1610542637631" duration="6624000" />
+      <workItem from="1610570662594" duration="6758000" />
+      <workItem from="1610607921238" duration="3695000" />
     </task>
     <servers />
   </component>
